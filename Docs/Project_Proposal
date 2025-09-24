@@ -1,0 +1,58 @@
+Project Title: AI Powered Personal Email Assistant
+Team Members:
+• Ahsan Ijaz (23PWBCS1012, 23pwbcs1012@uetpeshawar.edu.pk)
+• Ammar Ahmad (23PWBCS0988, 23pwbcs0988@uetpeshawar.edu.pk)
+
+
+Supervisor: Ms. Kanwal 
+Department of Computer Science, University Of Engineering And Technology Peshawar
+Semester : Fall 2025
+Abstract
+This project aims to develop an AI-powered personal email assistant that helps users manage their inbox more efficiently. Many people face the problem of receiving too many emails every day, which makes it difficult to find important messages, reply on time, and stay organized. The proposed system will allow users to log in with their Gmail account, automatically fetch their emails, and store them securely. It will then use AI to summarize long emails, categorize them into groups such as work, personal, or spam, and suggest short, polite replies that the user can edit or send directly. The main objectives are to save users time, reduce the stress of handling a large number of emails, and improve productivity by making email management smarter and easier. The expected outcome is a working web-based assistant that gives users a clean, organized inbox and demonstrates how AI can simplify everyday communication tasks.
+Introduction
+Email management remains a challenge due to the increasing volume of messages and time spent on repetitive tasks. Conventional platforms require users to read lengthy emails and draft replies manually, often leading to delays and reduced productivity. An AI-powered personal assistant offers a smarter alternative by generating concise summaries and suggesting suitable responses. With seamless integration into existing email services, it provides faster, clearer, and more efficient communication, enabling users to stay organized and focused on important tasks.
+Problem Statement
+Traditional email platforms like Gmail and Outlook offer only basic filtering and organization, leaving users to manually sort, read, and respond to large volumes of messages. This process is time-consuming, inefficient, and increases the risk of missing important information. Current systems lack advanced features such as automated summarization, intelligent categorization, and context-aware replies, creating a clear need for an AI-powered solution to streamline email management and improve productivity.
+Objectives
+• To design and implement an AI-powered assistant for efficient email management.
+• To generate concise summaries of lengthy emails for quick understanding.
+• To suggest suitable reply options, reducing manual effort in drafting responses.
+• To integrate seamlessly with existing email services for smooth user experience.
+• To improve productivity by minimizing time spent on repetitive email tasks.
+Scope of the Project
+In Scope:
+• Development of an AI-powered backend to fetch, categorize, summarize, and generate reply suggestions for emails.
+• Integration with Gmail accounts using IMAP/SMTP for email retrieval and sending.
+• Storage and management of user data and emails in a MongoDB database.
+• A web-based frontend for users to log in, view emails, and interact with AI features.
+
+Out of Scope:
+• Advanced security features such as OAuth integration with third-party services (beyond basic authentication).
+• Mobile application development.
+• Support for non-email communication platforms (e.g., WhatsApp, Slack).
+Proposed Solution / Methodology
+The proposed solution is a web-based personal email assistant that automates email management by providing AI-generated summaries and suggesting suitable replies. It will connect with email services to fetch messages, process their content, and present users with clear summaries and quick response options. The system will be designed to enhance productivity by reducing the time spent reading and drafting emails. The project will use the following tools:
+• Programming Language: Python
+• Frontend: React,Typescript
+• Backend: OpenAI Agents SDK, FastAPI
+• Database: Mongodb
+• Platform: Desktop Application
+
+
+Stakeholders
+•  Primary Stakeholders: End users (individuals managing personal or professional emails).
+• Secondary Stakeholders: Project Supervisor and Department (for guidance and evaluation).
+Expected Outcomes
+• A functional web application of an AI-powered personal email assistant.
+• Automatic email categorization, summarization, and smart reply generation.
+• Reduced manual effort in reading, sorting, and replying to emails.
+• Improved user productivity by highlighting important messages and providing quick responses.
+References
+[1] A. Sekar, ”AI Multi-Agent Workflow in Email Automation: Building Smart Replies, Summaries, and Calendar Scheduling Agents with LangGraph,” Medium.com , 2025.
+
+
+
+
+
+
+
