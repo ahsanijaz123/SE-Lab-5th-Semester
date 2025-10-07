@@ -8,6 +8,8 @@ from agents import Agent, Runner, function_tool, set_tracing_disabled
 from agents.extensions.models.litellm_model import LitellmModel
 from tools.send_email import send_email
 from tools.retrieve_emails import retrieve_emails
+from tools.summarizer_email import summarizer_email
+
 
 load_dotenv()
 
@@ -21,9 +23,12 @@ os.environ['GEMINI_API_KEY'] = GEMINI_API_KEY
 
 agent = Agent(
     name="Assistant",
-    instructions="You are a helpful assistant. You can send emails using the send_email tool and retrieve emails from the inbox using the retrieve_emails tool when requested.",
+    instructions= "You are a helpful assistant. "
+        "You can send emails using the send_email tool, "
+        "retrieve emails using retrieve_emails, "
+        "and summarize recent emails using summarizer_email.",
     model=LitellmModel(model=MODEL),
-    tools=[send_email, retrieve_emails]
+    tools=[send_email, retrieve_emails, summarizer_email]
 )
 
 async def main():
